@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
 const UserSchema = new mongoose.Schema({
-  userId: {
-    type: String,
-    default: Date.now(),
-  },
   nickName: {
     type: String,
   },
