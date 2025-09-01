@@ -2,7 +2,7 @@ const express = require("express");
 const User = require("../models/user.model.js");
 const router = express.Router();
 
-router.put("/users/:id", async (req, res) => {
+router.patch("/users/:id", async (req, res) => {
   const _ID = req.params.id;
   const { nickName, comment } = req.body;
   try {
