@@ -18,7 +18,7 @@ router.put("/users/:id", async (req, res) => {
     }
     res.json({ success: true, data: user });
   } catch (err) {
-    res.status(500).json({ message: "Internal Server Error" });
+    res.status(500).json({ success: false, message: "Internal Server Error" });
   }
 });
 

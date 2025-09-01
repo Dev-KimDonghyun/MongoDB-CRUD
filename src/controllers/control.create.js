@@ -8,7 +8,7 @@ router.post("/users", async (req, res) => {
     await user.save();
     res.status(201).json({ success: true, data: user });
   } catch (err) {
-    res.status(400).json({ success: false, message: "Invalid request" });
+    res.status(500).json({ message: "Internal Server Error" });
   }
 });
 
