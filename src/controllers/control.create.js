@@ -11,3 +11,5 @@ router.post("/users", async (req, res) => {
     res.status(400).json({ success: false, message: "Invalid request" });
   }
 });
+
+module.exports = router;
