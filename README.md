@@ -34,9 +34,9 @@ In my next project, I plan to first define a clear domain and design the CRUD lo
 
 2. `npm install`
 
-3. `npm start`
+3. Create `.env` file in the project root
 
-4. Create `.env` file in the project root
+4. `npm start`
 
 ## API Endpoints
 
