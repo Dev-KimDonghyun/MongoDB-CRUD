@@ -60,7 +60,7 @@ You can test the API endpoints with tools like Postman
 ```json
 {
   "success": true,
-  "data": { ...User }
+  "data": "{ ...User }"
 }
 ```
 
@@ -84,7 +84,7 @@ You can test the API endpoints with tools like Postman
 ```json
 {
   "success": true,
-  "data": [ ...User ]
+  "data": "[ ...User ]"
 }
 ```
 
@@ -108,7 +108,7 @@ You can test the API endpoints with tools like Postman
 ```json
 {
   "success": true,
-  "data": { ...User }
+  "data": "{ ...User }"
 }
 ```
 
@@ -141,7 +141,7 @@ You can test the API endpoints with tools like Postman
 ```json
 {
   "success": true,
-  "data": { ...User }
+  "data": "{ ...User }"
 }
 ```
 
@@ -165,7 +165,7 @@ You can test the API endpoints with tools like Postman
 ```json
 {
   "success": true,
-  "data": { ...User }
+  "data": "{ ...User }"
 }
 ```
 
