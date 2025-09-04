@@ -6,6 +6,20 @@ Dev-KimDonghyun's personal project
 
 This repository is a CRUD practice project produced using ExpressJS and MongoDB
 
+---
+
+## Retrospective
+
+### Experience:
+
+By utilizing ExpressJS and MongoDB, I implemented a simple CRUD example based on a NoSQL database, which helped me understand the fundamental structure of server–database integration. However, since I skipped the design phase and developed on the fly, I felt that the overall completeness of the project was somewhat lacking.
+
+### Next Action:
+
+In my next project, I plan to first define a clear domain and design the CRUD logic accordingly. Before starting development, I will also prepare an overall architecture and API specification in advance, aiming to proceed with a more structured and systematic development process.
+
+---
+
 ## Tech Stack
 
 - JavaScript
