@@ -4,7 +4,7 @@ Dev-KimDonghyun's personal project
 
 ## Description
 
-This repository is a CRUD practice project produced using ExpressJS and MongoDB
+This project is a CRUD practice project produced using ExpressJS and MongoDB
 
 ---
 
