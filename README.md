@@ -40,7 +40,7 @@ In my next project, I plan to first define a clear domain and design the CRUD lo
 
 ## API Endpoints
 
-### Data Model
+### Data Model - JSON
 
 ```json
 {
