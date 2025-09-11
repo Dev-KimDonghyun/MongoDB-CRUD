@@ -2,7 +2,8 @@ const express = require("express");
 
 const connectDatabase = require("./config/database");
 
-const createControl = require("./controllers/control.create");
+const userRouter = require("./routers/user.router");
+
 const readControl = require("./controllers/control.read");
 const updateControl = require("./controllers/control.update");
 const deleteControl = require("./controllers/control.delete");
@@ -14,7 +15,8 @@ app.use(express.json());
 
 connectDatabase();
 
-app.use("/api", createControl);
+app.use("/api", userRouter);
+
 app.use("/api", readControl);
 app.use("/api", updateControl);
 app.use("/api", deleteControl);

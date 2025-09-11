@@ -1,8 +1,6 @@
-const express = require("express");
-const User = require("../models/user.model.js");
-const router = express.Router();
+const User = require("../../models/user.model.js");
 
-router.post("/users", async (req, res) => {
+exports.createUser = async (req, res) => {
   try {
     const user = new User(req.body);
     await user.save();
@@ -10,6 +8,4 @@ router.post("/users", async (req, res) => {
   } catch (err) {
     res.status(500).json({ success: false, message: "Internal Server Error" });
   }
-});
-
-module.exports = router;
+};
