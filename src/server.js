@@ -4,7 +4,6 @@ const connectDatabase = require("./config/database");
 
 const userRouter = require("./routers/user.router");
 
-const updateControl = require("./controllers/control.update");
 const deleteControl = require("./controllers/control.delete");
 
 const app = express();
@@ -16,7 +15,6 @@ connectDatabase();
 
 app.use("/api", userRouter);
 
-app.use("/api", updateControl);
 app.use("/api", deleteControl);
 
 app.get("/", (req, res) => {
