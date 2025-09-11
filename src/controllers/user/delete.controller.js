@@ -1,8 +1,6 @@
-const express = require("express");
-const User = require("../models/user.model.js");
-const router = express.Router();
+const User = require("../../models/user.model.js");
 
-router.delete("/users/:id", async (req, res) => {
+exports.deleteUser = async (req, res) => {
   const _ID = req.params.id;
   try {
     const user = await User.findByIdAndDelete(_ID);
@@ -15,6 +13,4 @@ router.delete("/users/:id", async (req, res) => {
   } catch (err) {
     res.status(500).json({ success: false, message: "Internal Server Error" });
   }
-});
-
-module.exports = router;
+};
